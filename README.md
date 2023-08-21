@@ -1,2 +1,9 @@
 # PokeJS
-A Pokedex in HTML, CSS, JS, Bootstrap and JQuery.
+### Project developed for the DIO course.
+
+## Technologies
+* HTML
+* CSS
+* Javascript
+* Bootstrap
+* JQuery
