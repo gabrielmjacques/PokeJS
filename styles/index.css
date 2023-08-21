@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
+
+body::before,
+body::after {
+    content: '';
+    position: fixed;
+
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    filter: blur(10px);
+}
+
+body::before {
+    background-color: #ffffff70;
+
+    height: 50dvh;
+
+    border-bottom: 20px solid black;
+}
+
+body::after {
+    background-color: #ff000070;
+
+    top: 50%;
+    height: 50dvh;
+
+    border-top: 20px solid black;
+}
+
+main {
+    background-color: #000000af;
+
+    min-height: 100dvh;
+
+    box-shadow: 0 0 20px 5px #0000009a;
+}
